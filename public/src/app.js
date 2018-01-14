@@ -5,11 +5,12 @@
 
 
 var headerTemplate = (
+
     <div>
         <h2> Henry's Meal Prep </h2>
         <p>I have a passion for cooking that inspired me to
             start my own business and make it a bit easier for
-            people to eat healthy and fresh! </p>
+            people to eat healthy and fresh!! </p>
     </div>
 );
 
@@ -21,6 +22,7 @@ function getNutritionInfo(location){
         return location;
     }else {
         return 'Unknown';
+
     }
 }
 
